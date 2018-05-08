@@ -36,9 +36,9 @@ As said before, the fan and therefore convection has a high impact on the Huky's
 
 This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
 
-Further Information on this project, the STL-Objects for 3d-printing, Fritzing-Files for the circuit and the ATtiny-Code can be found on my 
+Further Information on this project, the STL-Objects for 3d-printing, Fritzing-Files for the circuit and the ATtiny-Code can be found on my [repository](https://github.com/phischmi/HukyAutomation).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ1MzEzNDMsMjA2OTQzMzMxNSwtMT
+eyJoaXN0b3J5IjpbLTE1Nzc3MTA1OTgsMjA2OTQzMzMxNSwtMT
 U0ODU4NDU4MSwtMTU4NzIxMDQyOSw1NTU0MjY5MDAsLTEyNDIx
 MzkxNTJdfQ==
 -->
