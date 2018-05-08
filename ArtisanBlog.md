@@ -8,11 +8,11 @@ First i switched the Huky's original AC fan for a powerfull 12V DC fan. To be mo
 I then 3d-printed an adapter-ring to mount the fan to the original vent-bowl.
 This fan (like many others) has a separate PWM-Line, which is essential for my further setup.
 
-![enter image description here](https://up.picr.de/26432251mo.jpg)
+![enter image description here](http://up.picr.de/32625522el.jpg)
 
 I wanted to controll the fan via Artisan besides the possibility to record the ET and BT. Since version 1.2 Artisan [supports the new VINT-Phidgets](https://artisan-roasterscope.blogspot.de/2017/12/more-phidgets.html), which draw my attention to the [HUB0000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=643) and the means to connect one Phidget for each of my needs. In my case this was the [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) for temperature readings and the [OUT1000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=711) for controlling the fan.
 
-![enter image description here](https://up.picr.de/32622878kw.jpg)
+![enter image description here](http://up.picr.de/32625524su.jpg)
 
 So, till here i was - technically - capable of displaying temperature readings in Artisan and controlling an output voltage of 0 - 4,2V utilizing Artisan's buttons and sliders.
 I will outline the corresponding setup in Artisan (which is btw very simple) at the end of this article.
@@ -25,7 +25,7 @@ My circuit reads the incoming voltage and converts it to the required PWM-Signal
 Furthermore it powers the 12V fan. The MCU itself powered by 5V from a step down regulator, which is sourced by the same 12V as the fan.
 I'm not an electrician and this is virtually my first self-made circuit - hence kept very simple and stripped-down.
 
-![enter image description here](https://up.picr.de/32622881ck.jpg)
+![enter image description here](http://up.picr.de/32625525lw.jpg)
 
 The final step was to configure Artisan to read the temperature recordings and to control the fan.
 This is easily done by selecting the TMP1101 under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
@@ -36,6 +36,6 @@ As said before, the fan and therefore convection has a high impact on the Huky's
 
 This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg1ODQ1ODEsLTE1ODcyMTA0MjksNT
-U1NDI2OTAwLC0xMjQyMTM5MTUyXX0=
+eyJoaXN0b3J5IjpbMjA2OTQzMzMxNSwtMTU0ODU4NDU4MSwtMT
+U4NzIxMDQyOSw1NTU0MjY5MDAsLTEyNDIxMzkxNTJdfQ==
 -->
