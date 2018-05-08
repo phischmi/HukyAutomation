@@ -9,7 +9,7 @@ Since - for the Huky - the fan has very high impact on ET and therefore BT, this
 Furthermore it is quite tricky to change the gas stove's needle valve for a proportional control valve or to automate the installed one - which i also tried.
 
 First i switched the Huky's original AC fan for a powerfull 12V DC fan. To be more precise, i chose the [Noctua NF-A14 industrialPPC-3000 PWM](https://noctua.at/en/nf-a14-industrialppc-3000-pwm).
-I then 3d-printed an adapter-ring to mount the fan to the original vent-bowl.
+I then 3d-printed two adapter-rings to mount the fan to the original vent-bowl.
 This fan (like many others) has a separate PWM-Line, which is essential for my further setup.
 
 ![enter image description here](http://up.picr.de/32625522el.jpg)
@@ -38,5 +38,5 @@ In my case i also created a bunch of buttons to set the slider to some pre-confi
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTM0ODk4MV19
+eyJoaXN0b3J5IjpbLTQ2Mjg0NTAxOV19
 -->
