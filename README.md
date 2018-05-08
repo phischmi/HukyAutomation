@@ -2,7 +2,7 @@
 
 
 This is my approach on automating the Huky 500 Roaster using Artisan Software, VINT-Hardware from Phidgets and some selfmade electrics, based on an ATtiny85.
-All necesarry
+All necessary files can be found in this repository.
 
 My goal was to automate the Huky as much as possible, but with as little effort as necessary.
 Since - for the Huky - the fan has very high impact on ET and therefore BT, this was my starting point.
@@ -42,5 +42,5 @@ This is just one approach on how you can utilize the new support for VINT-Hardwa
 
 Further Information on this project, the STL-Objects for 3d-printing, Fritzing-Files for the circuit and the ATtiny-Code can be found on my [repository](https://github.com/phischmi/HukyAutomation).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEzNzczMV19
+eyJoaXN0b3J5IjpbODEwNTMwODUxXX0=
 -->
