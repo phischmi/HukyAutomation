@@ -22,5 +22,5 @@ void setup() {
 }
 
 void loop() {
-  OCR1A = map(analogRead(A2), 0, 851, 0, 199);
+  OCR1A = map(analogRead(A2), 0, 851, 0, 199); // 851 equals ~4.2 Volts
 }
