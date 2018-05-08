@@ -1,7 +1,7 @@
 # HukyAutomation
 
 
-In this  - my first - Article i'm aiming on giving a short insight in my setup with Artisan and how i connected it to my Huky 500T using the new VINT-Phidgets and some selfmade electrics.
+This is my appr
 
 My goal was to automate the Huky as much as possible, but with as little effort as necessary.
 Since - for the Huky - the fan has very high impact on ET and therefore BT, this was my starting point.
@@ -41,5 +41,5 @@ This is just one approach on how you can utilize the new support for VINT-Hardwa
 
 Further Information on this project, the STL-Objects for 3d-printing, Fritzing-Files for the circuit and the ATtiny-Code can be found on my [repository](https://github.com/phischmi/HukyAutomation).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMTg3NzA2XX0=
+eyJoaXN0b3J5IjpbMzY2MDU2NjZdfQ==
 -->
