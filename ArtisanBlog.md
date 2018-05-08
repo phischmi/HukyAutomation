@@ -35,7 +35,10 @@ In my case i also created a bunch of buttons to set the slider to some pre-confi
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 
 This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
+
+Further Information on this project, the STL-Objects for 3d-printing, Fritzing-Files for the circuit and the ATtiny-Code can be found on my 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTQzMzMxNSwtMTU0ODU4NDU4MSwtMT
-U4NzIxMDQyOSw1NTU0MjY5MDAsLTEyNDIxMzkxNTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQ1MzEzNDMsMjA2OTQzMzMxNSwtMT
+U0ODU4NDU4MSwtMTU4NzIxMDQyOSw1NTU0MjY5MDAsLTEyNDIx
+MzkxNTJdfQ==
 -->
