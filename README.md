@@ -29,7 +29,7 @@ My circuit reads the incoming voltage and converts it to the required PWM-Signal
 Furthermore it powers the 12V fan. The MCU itself powered by 5V from a step down regulator, which is sourced by the same 12V as the fan.
 I'm not an electrician and this is virtually my first self-made circuit - hence kept very simple and stripped-down.
 
-![enter image description here](https://up.picr.de/32625525lw31691ik.jpg)
+![enter image description here](https://up.picr.de/32631691ik.jpg)
 
 The final step was to configure Artisan to read the temperature recordings and to control the fan.
 This is easily done by selecting the TMP1101 under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
@@ -38,5 +38,6 @@ In my case i also created a bunch of buttons to set the slider to some pre-confi
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4NDM4NzQ2LC00NjI4NDUwMTldfQ==
+eyJoaXN0b3J5IjpbLTMyNTM2NTk0NCw0Mzg0Mzg3NDYsLTQ2Mj
+g0NTAxOV19
 -->
