@@ -6,7 +6,9 @@ Furthermore it is quite tricky to change the gas stove's needle valve for a prop
 
 First i switched the Huky's original AC fan for a powerfull 12V DC fan. To be more precise, i chose the [Noctua NF-A14 industrialPPC-3000 PWM](https://noctua.at/en/nf-a14-industrialppc-3000-pwm).
 I then 3d-printed an adapter-ring to mount the fan to the original vent-bowl.
-This fan (like many others) has a separate pwm-line, which is essential for my further setup.
+This fan (like many others) has a separate PWM-Line, which is essential for my further setup.
+
+
 
 I wanted to controll the fan via Artisan besides the possibility to record the ET and BT. Since version 1.2 Artisan [supports the new VINT-Phidgets](https://artisan-roasterscope.blogspot.de/2017/12/more-phidgets.html), which draw my attention to the [HUB0000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=643) and the means to connect one Phidget for each of my needs. In my case this was the [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) for temperature readings and the [OUT1000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=711) for controlling the fan.
 
@@ -30,5 +32,5 @@ As said before, the fan and therefore convection has a high impact on the Huky's
 
 This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIxMzkxNTJdfQ==
+eyJoaXN0b3J5IjpbNTU1NDI2OTAwLC0xMjQyMTM5MTUyXX0=
 -->
