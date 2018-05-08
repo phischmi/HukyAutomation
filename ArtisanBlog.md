@@ -8,7 +8,7 @@ First i switched the Huky's original AC fan for a powerfull 12V DC fan. To be mo
 I then 3d-printed an adapter-ring to mount the fan to the original vent-bowl.
 This fan (like many others) has a separate PWM-Line, which is essential for my further setup.
 
-
+![enter image description here](https://up.picr.de/26432251mo.jpg)
 
 I wanted to controll the fan via Artisan besides the possibility to record the ET and BT. Since version 1.2 Artisan [supports the new VINT-Phidgets](https://artisan-roasterscope.blogspot.de/2017/12/more-phidgets.html), which draw my attention to the [HUB0000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=643) and the means to connect one Phidget for each of my needs. In my case this was the [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) for temperature readings and the [OUT1000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=711) for controlling the fan.
 
@@ -32,5 +32,6 @@ As said before, the fan and therefore convection has a high impact on the Huky's
 
 This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NDI2OTAwLC0xMjQyMTM5MTUyXX0=
+eyJoaXN0b3J5IjpbLTE1ODcyMTA0MjksNTU1NDI2OTAwLC0xMj
+QyMTM5MTUyXX0=
 -->
