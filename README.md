@@ -37,8 +37,6 @@ This is easily done by selecting the TMP1101 under `Extras >> Devices >> ET/BT` 
 In my case i also created a bunch of buttons to set the slider to some pre-configured values, e.g. OFF, 60%, 80%, 100% (this range works very well for me).
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
-
-This is just one approach on how you can utilize the new support for VINT-Hardware from Phidgets. It keeps the necessary cable-connections reduced to a minimum and offers many more thinkable setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI2OTM3MzRdfQ==
+eyJoaXN0b3J5IjpbMTk5OTM0ODk4MV19
 -->
