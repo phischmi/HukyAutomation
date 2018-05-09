@@ -38,14 +38,14 @@ This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT
 
 ![enter image description here](https://up.picr.de/32631776co.jpeg)
 
-As Action i chose 
+As `Action` i chose `VOUT Command` and Command
 In my case i also created a bunch of buttons to set the slider to some pre-configured values, e.g. OFF, 60%, 80%, 100% (this range works very well for me).
 
 ![enter image description here](https://up.picr.de/32631777ji.jpeg)
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUxODQ4MzcsLTE5NDUzNTcxNDgsLT
+eyJoaXN0b3J5IjpbLTIwMTc5MDQ0MDAsLTE5NDUzNTcxNDgsLT
 IwMzY4NjMxODAsLTMyNTM2NTk0NCw0Mzg0Mzg3NDYsLTQ2Mjg0
 NTAxOV19
 -->
