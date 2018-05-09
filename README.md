@@ -32,7 +32,7 @@ I'm not an electrician and this is virtually my first self-made circuit - hence 
 ![enter image description here](https://up.picr.de/32631691ik.jpg)
 
 The final step was to configure Artisan to read the temperature recordings and to control the fan.
-This is easily done by selecting the TMP1101 under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
+This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
 
 ![enter image description here](https://up.picr.de/32631775kt.jpeg)
 
@@ -44,6 +44,6 @@ In my case i also created a bunch of buttons to set the slider to some pre-confi
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY4NjMxODAsLTMyNTM2NTk0NCw0Mz
-g0Mzg3NDYsLTQ2Mjg0NTAxOV19
+eyJoaXN0b3J5IjpbLTE5NDUzNTcxNDgsLTIwMzY4NjMxODAsLT
+MyNTM2NTk0NCw0Mzg0Mzg3NDYsLTQ2Mjg0NTAxOV19
 -->
