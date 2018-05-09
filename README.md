@@ -18,7 +18,7 @@ I wanted to controll the fan via Artisan besides the possibility to record the E
 
 ![enter image description here](http://up.picr.de/32625524su.jpg)
 
-So, till here i was - technically - capable of displaying temperature readings in Artisan and controlling an output voltage of 0 - 4,2V utilizing Artisan's buttons and sliders.
+So, till here i was - technically - capable of displaying temperature readings in Artisan and controlling an output voltage of 0 - 4.2V utilizing Artisan's buttons and sliders.
 I will outline the corresponding setup in Artisan (which is btw very simple) at the end of this article.
 
 Next step was to convert the outputted voltage to a 5V PWM-Signal @ 20KHz.
@@ -38,7 +38,7 @@ This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT
 
 ![enter image description here](https://up.picr.de/32631776co.jpeg)
 
-As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0'. `Factor` is set to '0,04', since the maximum output is 100 * 0,04 = 4,0 Volts. Rightly it should be 0,042, as the OUT1000 outputs 4,2 Volts max, but Artisan only supports 2 decimals here.
+As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0' (in my case). `Factor` is set to '0,04', since the maximum output is 100 * 0,04 = 4,0 Volts. Rightly it should be 0,042, as the OUT1000 outputs 4,2 Volts max, but Artisan only supports 2 decimals here.
 
 In my case i also created a bunch of buttons to set the slider to some pre-configured values, e.g. Off, 60%, 80%, 100% (this range works very well for me). Syntax is the same as for the slider.
 
@@ -46,7 +46,7 @@ In my case i also created a bunch of buttons to set the slider to some pre-confi
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTA3MjM3MSwtMTk0NTM1NzE0OCwtMj
-AzNjg2MzE4MCwtMzI1MzY1OTQ0LDQzODQzODc0NiwtNDYyODQ1
-MDE5XX0=
+eyJoaXN0b3J5IjpbMzY0MzQxMjE3LC0xOTQ1MzU3MTQ4LC0yMD
+M2ODYzMTgwLC0zMjUzNjU5NDQsNDM4NDM4NzQ2LC00NjI4NDUw
+MTldfQ==
 -->
