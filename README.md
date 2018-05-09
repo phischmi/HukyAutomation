@@ -38,7 +38,7 @@ This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT
 
 ![enter image description here](https://up.picr.de/32631776co.jpeg)
 
-As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0' (in my case). `Factor` is set to '0.04', since the maximum output is 100 * 0.04 = 4.0 Volts. Rightly it should be 0.042, as the OUT1000 outputs 4.2 Volts max, but Artisan only supports 2 decimals here.
+As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0' (in my case). `Factor` is set to `0.04`, since the maximum output is 100 * 0.04 = 4.0 Volts. Rightly it should be 0.042, as the OUT1000 outputs 4.2 Volts max, but Artisan only supports 2 decimals here.
 
 I also created a bunch of buttons to set the slider to some pre-configured values, e.g. Off, 60%, 80%, 100% (this range works quite well for me). Syntax is the same as for the slider.
 
@@ -46,7 +46,7 @@ I also created a bunch of buttons to set the slider to some pre-configured value
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzQwMzE2NiwtMTk0NTM1NzE0OCwtMj
-AzNjg2MzE4MCwtMzI1MzY1OTQ0LDQzODQzODc0NiwtNDYyODQ1
-MDE5XX0=
+eyJoaXN0b3J5IjpbODcwODEyNjEwLC0xOTQ1MzU3MTQ4LC0yMD
+M2ODYzMTgwLC0zMjUzNjU5NDQsNDM4NDM4NzQ2LC00NjI4NDUw
+MTldfQ==
 -->
