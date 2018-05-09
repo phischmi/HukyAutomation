@@ -8,13 +8,16 @@ My goal was to automate the Huky as much as possible, but with as little effort 
 Since - for the Huky - the fan has very high impact on ET and therefore BT, this was my starting point.
 Furthermore it is quite tricky to change the gas stove's needle valve for a proportional control valve or to automate the installed one - which i also tried.
 
-First i switched the Huky's original AC fan for a powerfull 12V DC fan. To be more precise, i chose the [Noctua NF-A14 industrialPPC-3000 PWM](https://noctua.at/en/nf-a14-industrialppc-3000-pwm).
+First i switched the Huky's original AC fan for a powerfull 12V DC fan.
+To be more precise, i chose the [Noctua NF-A14 industrialPPC-3000 PWM](https://noctua.at/en/nf-a14-industrialppc-3000-pwm).
 I then 3d-printed two adapter-rings to mount the fan to the original vent-bowl.
 This fan (like many others) has a separate PWM-Line, which is essential for my further setup.
 
 ![enter image description here](http://up.picr.de/32625522el.jpg)
 
-I wanted to controll the fan via Artisan besides the possibility to record the ET and BT. Since version 1.2 Artisan [supports the new VINT-Phidgets](https://artisan-roasterscope.blogspot.de/2017/12/more-phidgets.html), which draw my attention to the [HUB0000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=643) and the means to connect one Phidget for each of my needs. In my case this was the [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) for temperature readings and the [OUT1000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=711) for controlling the fan.
+I wanted to controll the fan via Artisan besides the possibility to record the ET and BT.
+Since version 1.2 Artisan [supports the new VINT-Phidgets](https://artisan-roasterscope.blogspot.de/2017/12/more-phidgets.html), which draw my attention to the [HUB0000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=643) and the means to connect one Phidget for each of my needs.
+In my case this was the [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) for temperature readings and the [OUT1000](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=711) for controlling the fan.
 
 ![enter image description here](http://up.picr.de/32625524su.jpg)
 
@@ -46,7 +49,7 @@ I also created a bunch of buttons to set the slider to some pre-configured value
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI2MjIyODcsLTE5NDUzNTcxNDgsLT
-IwMzY4NjMxODAsLTMyNTM2NTk0NCw0Mzg0Mzg3NDYsLTQ2Mjg0
-NTAxOV19
+eyJoaXN0b3J5IjpbMzk0NTEwMTI3LC0xOTQ1MzU3MTQ4LC0yMD
+M2ODYzMTgwLC0zMjUzNjU5NDQsNDM4NDM4NzQ2LC00NjI4NDUw
+MTldfQ==
 -->
