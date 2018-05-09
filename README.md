@@ -26,7 +26,7 @@ The 20KHz are mandatorry for the fan's internal PWM-Controller to work (see [Int
 
 I did some research and it appeared to me, the simplest option available would be, to built a little circuit around an ATtiny85 MCU. 
 My circuit reads the incoming voltage and converts it to the required PWM-Signal.
-Furthermore it powers the 12V fan. The MCU itself is powered by 5V from a step down regulator, which is sourced by the same 12V as the fan (You could also use any  .
+Furthermore it powers the 12V fan. The MCU itself is powered by 5V from a step down regulator, which is sourced by the same 12V as the fan (you could also use any 7805 IC here).
 I'm not an electrician and this is virtually my first self-made circuit - hence kept very simple and stripped-down.
 
 ![enter image description here](https://up.picr.de/32631691ik.jpg)
@@ -46,7 +46,7 @@ I also created a bunch of buttons to set the slider to some pre-configured value
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET. The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTExMzc5NiwtMTk0NTM1NzE0OCwtMj
-AzNjg2MzE4MCwtMzI1MzY1OTQ0LDQzODQzODc0NiwtNDYyODQ1
-MDE5XX0=
+eyJoaXN0b3J5IjpbLTExODI2MjIyODcsLTE5NDUzNTcxNDgsLT
+IwMzY4NjMxODAsLTMyNTM2NTk0NCw0Mzg0Mzg3NDYsLTQ2Mjg0
+NTAxOV19
 -->
