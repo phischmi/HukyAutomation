@@ -16,7 +16,7 @@ void setup() {
             (1 << CS10);      // Set Prescaler to 0101 = 16
   
   OCR1C = 199;                // Set Top-Value to 199
-  OCR1A = 199;                // Set initial value
+  OCR1A = 0;                  // Set initial value to 0
   
   pinMode(1, OUTPUT);         // Set digital pin 1 (PB1) to OUTPUT
 }
