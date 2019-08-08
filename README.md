@@ -29,10 +29,12 @@ The 20KHz are mandatorry for the fan's internal PWM-Controller to work (see [Int
 
 I did some research and it appeared to me, the simplest option available would be, to built a little circuit around an ATtiny85 MCU. 
 My circuit reads the incoming voltage and converts it to the required PWM-Signal.
-Furthermore it powers the 12V fan. The MCU itself is powered by 5V from a step down regulator, which is sourced by the same 12V as the fan (you could also use any 7805 IC here).
+Furthermore it powers the 12V fan. The MCU itself is powered by 5V from 7805 IC, which is sourced by the same 12V as the fan.
 I'm not an electrician and this is virtually my first self-made circuit - hence kept very simple and stripped-down.
 
-![enter image description here](https://up.picr.de/32631691ik.jpg)
+![enter image description here](https://up.picr.de/35387100lh.jpg)
+
+![enter image description here](https://up.picr.de/34775191ul.jpg)
 
 The final step was to configure Artisan to read the temperature recordings and to control the fan.
 This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
