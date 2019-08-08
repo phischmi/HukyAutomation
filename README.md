@@ -43,8 +43,7 @@ This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT
 
 ![enter image description here](https://up.picr.de/32631776co.jpeg)
 
-As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0' (in my case). `Factor` is set to `0.04`, since the maximum output is 100 * 0.04 = 4.0 Volts.
-Rightly it should be 0.042, as the OUT1000 outputs 4.2 Volts max, but Artisan only supports 2 decimals here.
+As `Action` i chose `VOUT Command` and `Command` is `out(n,{})`, with 'n' = channel '0' (in my case). `Factor` is set to `0.042`, since the maximum output is 100 * 0.042 = 4.2 Volts.
 
 I also created a bunch of buttons to set the slider to some pre-configured values, e.g. Off, 60%, 80%, 100% (this range works quite well for me). Syntax is the same as for the slider.
 
