@@ -34,7 +34,7 @@ I'm not an electrician and this is virtually my first self-made circuit - hence 
 
 ![enter image description here](https://up.picr.de/35387100lh.jpg)
 
-![enter image description here](https://up.picr.de/34775191ul.jpg)
+![enter image description here](https://up.picr.de/36542459hq.jpg)
 
 The final step was to configure Artisan to read the temperature recordings and to control the fan.
 This is easily done by selecting the `TMP1101` under `Extras >> Devices >> ET/BT` and by creating a slider with the following settings. 
