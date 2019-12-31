@@ -51,6 +51,8 @@ I also created a bunch of buttons to set the slider to some pre-configured value
 
 As said before, the fan and therefore convection has a high impact on the Huky's ET.
 The above setup can therefore easily be used with Artisan's software PID to hold a certain temperature, e.g. for warming up the whole roaster or in between roasts.
+
+For those interested and german-speaking, [this](https://roboternetz.de/community/threads/71926-Einfache-ATtiny-basierte-spannungsgesteuerte-L%C3%BCfter-Regelung) is the topic in german "Roboternetz", where the circuit was planned. Many thanks to those people over there, who helped me a lot!
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4MzkwMDMzNzUsMzk0NTEwMTI3LC0xOT
 Q1MzU3MTQ4LC0yMDM2ODYzMTgwLC0zMjUzNjU5NDQsNDM4NDM4
