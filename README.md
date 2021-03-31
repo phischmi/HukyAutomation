@@ -32,7 +32,7 @@ My circuit reads the incoming voltage and converts it to the required PWM-Signal
 Furthermore it powers the 12V fan. The MCU itself is powered by 5V from 7805 IC, which is sourced by the same 12V as the fan.
 I'm not an electrician and this is virtually my first self-made circuit - hence kept very simple and stripped-down.
 
-![enter image description here](https://up.picr.de/37553748ij.jpg)
+![enter image description here](https://up.picr.de/40870494lu.jpeg)
 
 ![enter image description here](https://up.picr.de/36542459hq.jpg)
 
